@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title> {% block title %} {% endblock %}</title>
+    <title> {% block title %} {% endblock %}</title>
 
     <link rel="stylesheet" type="text/css" href="/static/style.css" />
     <link rel="shortcut icon" type="image/ico" href="{{url_for('static', filename='myfavicon.png')}}">
@@ -17,7 +17,25 @@
   </div>
   -->
   <!--<img src="/static/wave.gif" width="100%">-->
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '540394369453170',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+   </script>
 {% block body %}
 
 {% endblock body %}
+</body>
