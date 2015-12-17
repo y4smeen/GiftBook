@@ -10,9 +10,9 @@ GiftBook will allow users to log into their Facebook and look for potential gift
 
 ## Tools To Use
 * Facebook SDK for JS
-** Use Facebook to log in and look through friends
+  * Use Facebook to log in and look through friends
 * Amazon API
-** Display item along with details (price, description, etc)
+  * Display item along with details (price, description, etc)
 
 ## What We Don't Know How To Do
 * Looking through things "liked" by certain people on Facebook
