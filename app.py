@@ -1,18 +1,13 @@
-from flask import Flask, render_template, request, session
-import utils
+from flask import Flask, render_template, session
+from flask import redirect, url_for
 
 app = Flask(__name__)
 
-@app.route('/', methods=["GET", "POST"])
+@app.route("/")
 def index():
-    render_template("home.html")
-    #if (request.method == "GET"):
-    #    return render_template("home.html")
-    #else:
-    #    query = request.form['search']
-    #    results = utils.Search(query)
-    #    return render_template("results.html", results=results, query=query)
+    return render_template("home.html")
 
-if __name__=="__main__":
-    app.debug = True
-    app.run(host='0.0.0.0', port=8000)
+if __name__ == "__main__":
+   app.debug = True
+   app.secret_key = "Don't store this on github"
+   app.run(host="0.0.0.0", port=8000)
