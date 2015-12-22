@@ -1,5 +1,6 @@
 # RideEasy
 Software Development Fall Term Final Project 
+<br>
 *Yasmeen Roumie and Cindy Li*
 
 ## Description
