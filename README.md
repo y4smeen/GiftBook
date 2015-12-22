@@ -10,10 +10,10 @@ RideEasy will allow users to enter their desired trip time and destination. Base
 
 ## Tools To Use
 * MTA API
-** blah 
+  * real time data
+  * subway schedules & stations
+  * daily mta bridge traffic
 * Google Maps API
-** blah
+  * tell you when you should leave the house to make the best train 
 * Javascript
-** blah
-
-## What We Don't Know How To Do
+  * possible visual of how busy each train is throughout the day 
