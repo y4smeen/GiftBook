@@ -18,3 +18,7 @@ RideEasy will allow users to enter their desired trip time and destination. Base
   * tell you when you should leave the house to make the best train 
 * Javascript
   * possible visual of how busy each train is throughout the day 
+
+## To Do
+[ ] Figure out how to use the API
+[ ] Make the UI/UX
