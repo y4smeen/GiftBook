@@ -5,13 +5,11 @@
  */
 
 ::-moz-selection { /* Code for Firefox */
-    color: red;
-    background: yellow;
+    background: #b3ccff;
 }
 
 ::selection {
-    color: red; 
-    background: yellow;
+    background: #b3ccff;
 }
 
 body {
