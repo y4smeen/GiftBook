@@ -100,19 +100,11 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                  <form method="POST">
-                      <fieldset>
 
-                          <div>
-                            <input autocomplete="on"
-                            class="tactile-searchbox-input"
-                            aria-haspopup="false"
-                            role="combobox"
-                            aria-autocomplete="both"
-                            dir="ltr" spellcheck="false" style="border: none;
-                            padding: 0px; margin: 0px; height: auto; width: 100%;
-                            outline: none;" placeholder="Choose starting point, or click on the map...">
-                          </div>
+                        <div id="locationField">
+                           <input id="autocomplete" placeholder="Enter your starting address"
+                                  onFocus="geolocate()" type="text" size="100"></input>
+                         </div>
 
                 </div>
             </div>
@@ -167,6 +159,9 @@
     <!-- Custom Theme JavaScript -->
     <script src="../static/style/js/grayscale.js"></script>
 
+    <script src="../static/animate.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsvu3vJPPUS-VZM3bb7-KII5YyjmvyhPk&signed_in=true&libraries=places&callback=initAutocomplete"
+        async defer></script>
 </body>
 
 </html>
