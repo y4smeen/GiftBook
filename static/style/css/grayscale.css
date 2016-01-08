@@ -4,12 +4,33 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-::-moz-selection { /* Code for Firefox */
-    background: #b3ccff;
+/*** Works on common browsers ***/
+::selection {
+    background-color: #352e7e;
+    color: #fff;
 }
 
-::selection {
-    background: #b3ccff;
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #352e7e;
+    color: #fff;
 }
 
 body {
