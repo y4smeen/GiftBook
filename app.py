@@ -4,7 +4,6 @@ import urllib2, json, urllib, math, time, string
 app = Flask(__name__)
 
 @app.route('/', methods=["POST","GET"])
-@app.route('/index', methods=["POST","GET"])
 def index():
     return render_template("index.html")
 #    if request.method == 'POST':

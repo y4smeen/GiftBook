@@ -57,24 +57,25 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
 
-                        <fieldset>
-                           <input id="origin" type="text" placeholder="Type origin here..." name="origin">
-                            </input>
+                        <div>
+                           <input id="start" name="start" type="text" placeholder="Enter your origin" name="origin" required></input>
 
-                        <br>
+                            <br>
+                            <br>
+                            
+                           <input id="end" name="end" type="text" placeholder="Enter your destination" required></input>
 
-                           <input id="destination" type="text" placeholder="Type destination here..." name="destination">
-
-                            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
                             <!-- Search javascript -->
+                            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
                             <script type="text/javascript">
-                              var input1 = document.getElementById('start');
-                              var input2 = document.getElementById('end');
-                              var options = {componentRestrictions: {country: 'us'}};
+                              var input1=document.getElementById('start');
+                              var input2=document.getElementById('end');
+
+                              var options={componentRestrictions: {country: 'us'}};
                               new google.maps.places.Autocomplete(input1, options);
                               new google.maps.places.Autocomplete(input2, options);
                             </script>
-                          </fieldset>
+                          </div>
                 </div>
             </div>
         </div>
