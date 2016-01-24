@@ -40,5 +40,13 @@ for each in line[1:-1]:
     temp = each.split(",")
     trains[temp[2]] = temp[0]
 
-for i in ids:
-    print "Train: " + trains[subway[i]] + ", Station: " + names[i] + ", Time: " + ids[i]  + "\n"
+
+def fin():
+    final = []
+    for i in ids:
+        temp = []
+        temp.append(trains[subway[i]]) #train
+        temp.append(names[i]) #station
+        temp.append(ids[i]) #time
+        final.append(temp)
+    return final
