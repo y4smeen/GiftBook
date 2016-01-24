@@ -20,8 +20,12 @@ def findTrain(origin, destination):
                 narrowed.append(possiblities[x])
                 narrowed.append(possiblities[x-1])
         x = x-2
-    print narrowed
+
+    string = ""
+    for each in narrowed:
+        string = string + each[0] + " train at " + each[1] + " at " + each[2] + "<br>"
+
     if len(narrowed) == 0:
         return "There are no trains connecting your two destinations. Please locate other subway stations and search again."
     else:
-        return "Congratulations! There is/are " + str(len(narrowed)/2) + " trains connecting your two destinations. They are as follows:"
+        return "Congratulations! There is/are " + str(len(narrowed)/2) + " trains connecting your two destinations. <br>They are as follows:<br>" + string
