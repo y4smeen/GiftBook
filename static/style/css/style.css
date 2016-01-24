@@ -1,3 +1,7 @@
+body {
+  background: url(../../cream_pixels.png)
+}
+
 .search button {
   display:block;
   margin:0px auto;
@@ -13,7 +17,41 @@ h1 {
   text-align: center;
   font-size: 40;
 }
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
 
+}
 .pure-form-aligned {
   text-align: center;
+}
+
+.pure-menu-horizontal {
+  font-size: 30px;
+  margin: 15px 0px 10px 0px;
+  padding:5px 10px 5px 10px;
+  background-color: #f1f1f1;
+}
+
+ul {
+  float: right;
+  margin: 25px 0px 10px 0px;
+  padding:5px 10px 5px 10px;
+}
+
+.pure-menu-link {
+  font-size: 20px;
+  text-align: right;
+}
+
+.pure-menu-item {
+  text-align: right;
+}
+
+.about {
+  font-size: 150%;
+  text-align: center;
+  margin: 15px 250px 10px 250px;
+  padding:25px 10px 25px 10px;
 }

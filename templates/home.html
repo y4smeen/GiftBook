@@ -1,17 +1,7 @@
 {% extends "base2.html" %}
 
-{% block title %}Search{% endblock %}
+{% block title %}- Search{% endblock %}
 
-{% block nav %}
-<div class="pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading pure-menu-link">RideEASY</a>
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="/" class="pure-menu-link">Search</a></li>
-        <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
-        <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">Contact</a></li>
-    </ul>
-</div>
-{% endblock %}
 
 {% block body %}
 <!--
@@ -22,6 +12,7 @@
 
 <br><br><br>
 <h1>SEARCH</h1>
+<h2>Enter your starting and ending station and we will help you find a train connecting the two! </h2>
 <br><br><br>
 <div class="search">
   <form class="pure-form pure-form-stacked" method="POST">
@@ -420,8 +411,9 @@
           <option value='Tompkinsville'> Tompkinsville </option>
           <option value='St George'> St George </option>
           </select>
+        </div>
+<div class="pure-control-group pure-u-1 pure-u-md-1-3">
 
-          <br><br>
           Select your destination.
           <select name="destination">
           <option value='Van Cortlandt Park - 242 St'> Van Cortlandt Park - 242 St </option>
@@ -803,8 +795,7 @@
           <option value='St George'> St George </option>
           </select>
 
-      </div>
-
+        </div>
       <br><br><br>
 
         <button id="submit" type="submit" class="pure-button pure-button-primary">Submit</button>

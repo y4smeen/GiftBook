@@ -30,6 +30,15 @@ def index():
 #     results = findTrain(origin, destination)
 #     return render_template("results.html", routes=results)
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+    
 if __name__ == "__main__":
    app.debug = True
    app.secret_key = "Don't store this on github"
