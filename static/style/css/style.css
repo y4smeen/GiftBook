@@ -55,3 +55,11 @@ ul {
   margin: 15px 250px 10px 250px;
   padding:25px 10px 25px 10px;
 }
+
+.email {
+  height: 40px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
