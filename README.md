@@ -3,7 +3,7 @@ Software Development Fall Term Final Project
 <br>
 *Yasmeen Roumie and Cindy Li*
 <br>
-Website: http://metronyc.me/
+Website: http://metronyc.me/ OR http://162.243.14.96/
 <br>
 Video: tba
 
