@@ -2,12 +2,16 @@
 Software Development Fall Term Final Project 
 <br>
 *Yasmeen Roumie and Cindy Li*
+<br>
+Website: 
+<br>
+Video:
 
 ## Description
 Always stuck on a crowded train? Tired of not getting a seat? Use RideEasy to plan out the least agonizing subway trip possible!
 
 ## Proposal
-RideEasy will allow users to enter their desired trip time and destination. Based on MTA data, the tool will propose to the user the most comfortable trip possible. It will return multiple aspects of the trip that contribute to the ease of it: crowdedness, likeliness to get a seat, duration of travel.
+RideEasy will allow users to enter their starting and ending locations. Based on MTA data, the tool will propose to the user trains that connect the two places and times that the trains will be running. If there is no connecting train, it will prompt the user to enter different locations.
 
 ## Tools To Use
 * MTA API
@@ -16,11 +20,6 @@ RideEasy will allow users to enter their desired trip time and destination. Base
   * daily mta bridge traffic
 * Google Maps API
   * tell you when you should leave the house to make the best train 
-* Javascript
-  * possible visual of how busy each train is throughout the day 
 
-## To Do
-- [ ] Figure out how to use the API
-- [ ] Make the UI/UX
-- [ ] Incorporate Google Maps API
-- [ ] Contact MTA for help
+
+
