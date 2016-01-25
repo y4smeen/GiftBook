@@ -3,9 +3,9 @@ Software Development Fall Term Final Project
 <br>
 *Yasmeen Roumie and Cindy Li*
 <br>
-Website: http://162.243.14.96:7000/
+Website: http://162.243.14.96/
 <br>
-Video:
+Video: tba
 
 ## Description
 Always stuck on a crowded train? Tired of not getting a seat? Use RideEasy to plan out the least agonizing subway trip possible!
